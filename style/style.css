@@ -1,0 +1,204 @@
+/*--------------------------top bannar style start-----------------*/
+body{
+width: 1321px;
+}
+.top-banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    background-color: #454545;
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+ }
+ .bannar-information{
+  margin-right: 30px;
+    margin-left: 100px;
+    margin-top: 131px;
+    color: white;
+    
+ }
+ .bannar-information h1{
+    font-size: 50px;
+
+ }
+ .bannar-information p{
+    width: 400px;
+    font-size: 20px;
+ }
+ .bannar-information button{
+    width: 187px;
+    height: 56px;
+    border-radius: 8px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #DD0000;
+    margin-top: 30px;
+    border: none;
+
+ }
+ .castom-icon{
+    margin-left: 10px;
+    width: 24px;
+    height: 24px;   
+ }
+
+ .bannnar-img img{
+    width: 581px;
+    height: 613px;
+    margin-top: 33px;
+ }
+
+
+ /*-------------------------- blog style section----------------- */
+
+.blogs{
+    display: flex;
+   
+}
+.main-blog-section{
+    margin-top: 80px;
+}
+ .blog-button{
+   text-align: center;
+    width: 300px;
+    height: 280px;
+    padding: 30px;
+    background-color:  #454545;
+    border-radius: 10px;
+ }
+ .blog-button button{
+    width: 252px;
+    height: 64px;
+    padding: 10px;
+    margin: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+ }
+ .blog-button button a{
+    text-decoration: none;
+ }
+ .blog-button .red-button{
+    background-color: red;
+    color: #FFFFFF;
+ }
+
+ /*------------------------- singel blog style start-------- */
+ 
+ .blog{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);    
+    grid-column-gap: 10px;
+    margin-left: 12px;
+ }
+ .singel-blog{
+    width: 312px;
+    height: 362px;
+    margin-bottom: 10px;
+    border: 1px solid #E8E8E8;
+    border-radius: 12px;
+    padding-bottom: 20px;
+ }
+ .singel-blog h1{
+    margin-left: 20px;
+ }
+ .singel-blog img{
+    width: 100%;
+    height: 175px;
+ }
+ .singel-blog button{
+    width: 100px;
+    height: 32px;
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 16px;
+    border-radius: 5px;
+ }
+ .time-comment{
+    display: flex;
+    font-size: 20px;
+    margin-left: 20px;
+ }
+.time-section{
+    margin-right: 60px;
+   
+}
+.time-section i{
+    margin-right: 15px;
+   
+}
+.massage-section i{
+    margin-right: 15px;
+}
+
+
+/* ------------------------footar section style -----------------*/
+
+.footar-section{
+    text-align: center;
+    background-color:  #454545;
+    color: white;
+       
+}
+.footar-section hr{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.footar-head h1{
+    padding: 30px;
+    font-size: 50px;
+}
+
+.footar-manu{
+    padding: 40px;
+   
+}
+.footar-manu span{
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+
+/* -----------------resposive section style ----------*/
+
+/* mobile section resposive */
+@media only screen and (max-width:688px) {
+    
+    .top-banner, .blogs, .blog, .footar-section {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%; 
+       
+        
+
+    }
+    .top-banner img{
+        width: 95%;
+        
+    }
+    .blog{
+        margin-top: 20px;
+    }
+    .footar-manu, .footar-head{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        width: 100%;
+        margin: auto;
+      
+    }
+    body{
+        width: auto;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width:689px) and (max-width:1023px) {
+    .blog{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       width: 100%;
+    }
+}
